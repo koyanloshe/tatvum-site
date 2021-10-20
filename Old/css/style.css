@@ -1,0 +1,131 @@
+/*
+.logo{
+	margin-top: -75px;
+	}
+*/
+
+.container-fluid{
+	padding-top:20vh;
+	}
+
+h2, h3, a, a:hover, a:active{
+	text-decoration: none;
+	color:#fff;
+	font-weight: 300;
+	}
+	
+body{
+	background-color: #000;
+}
+
+.left, .center, .right{
+	display: inline-block;
+}
+#footer{
+	padding-top: 18vh;
+}
+.call, .mail{
+	display: none;
+}
+
+@media(max-width:1920px){
+	#footer{
+	padding-top: 8vh;
+	}		
+}
+
+@media (max-width: 480px){
+	
+	.logo{margin-top:10vh;}
+	
+	.tag{
+		margin-top: -4vh;
+	}
+	
+	h2{
+		font-size: 18px;
+	}
+	
+	h3{
+		font-size: 14px;
+	}
+	#footer{
+		display: none;
+	}
+	.fa-phone,
+	.fa-envelope{
+		font-size: 22px;
+		color:black;
+	}
+	.call>.glyph-background{
+		background-color: #fff;
+		border-radius: 50%;
+		padding: 28px 25px 23px 25px;
+	}
+	.mail>.glyph-background{
+		background-color: #fff;
+		border-radius: 50%;
+		padding: 28px 22px 24px 23px;
+	}
+	.mail{
+		position: fixed;
+		bottom: 50px;
+		left:10px;
+		display: block;
+	}
+	.call{
+		position: fixed;
+		bottom: 50px;
+		right:10px;
+		display: block;
+	}
+	
+}
+
+@media (max-width: 800px){
+	.container-fluid{
+		padding-top:10vh;
+	}
+	.logo{margin-top:20vh;}
+	
+	h2{
+		font-size: 18px;
+	}
+	
+	h3{
+		font-size: 14px;
+	}
+	#footer{
+		padding-top: 20vh;
+	}
+}
+
+@media(max-width:1024){
+	.logo{
+		padding-top: 10vh;
+	}
+}
+
+@media(height:1024px){
+	#footer{
+		padding-top: 14vh;
+	}
+	.logo{
+		padding-top: 14vh;
+	}
+}
+
+@media(height:1024px){
+	#footer{
+		padding-top: 10vh;
+	}
+	.logo{
+		padding-top: 10vh;
+	}
+	h3{
+		font-size: 	16px;
+	}
+	h2{
+		font-size: 20px;
+	}
+}
